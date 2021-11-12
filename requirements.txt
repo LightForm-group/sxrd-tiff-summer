@@ -1,6 +1,7 @@
 notebook
 numpy
 matplotlib
-skimage
+scikit-image
 pathlib
 tqdm
+jupyter
