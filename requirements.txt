@@ -5,3 +5,4 @@ scikit-image
 pathlib
 tqdm
 jupyter
+pyyaml

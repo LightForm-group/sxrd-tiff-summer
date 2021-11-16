@@ -1,0 +1,12 @@
+experiment_numbers: 
+    start: 103828
+    end: 103851
+    step: 1
+# Experiment numbers defining list of experiments for summing tiff images.
+    
+file_paths:
+    input_path: ../../SXRD_raw_data/diamond_2021/rawdata_tiffs/{experiment_number}_tiffs/
+# Input path to the series of diffraction pattern tiff images
+    
+    output_path: ../../SXRD_analysis/diamond_2021/{experiment_number}/texture-cpf/
+# Output path to save the summed/averaged diffraction pattern tiff image.
