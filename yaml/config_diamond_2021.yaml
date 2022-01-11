@@ -10,3 +10,9 @@ file_paths:
     
     output_path: ../../SXRD_analysis/diamond_2021/{experiment_number}/texture-cpf/
 # Output path to save the summed/averaged diffraction pattern tiff image.
+
+    air_scatter_path: None
+# Path to tiff image recording the air scatter.
+
+    air_scatter_multiple: None
+# Value to multiply the intensity values from the air scatter image, to match the acquisition frequency of the experimental data.

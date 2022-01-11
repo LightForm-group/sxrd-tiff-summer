@@ -1,0 +1,18 @@
+experiment_numbers: 
+    start: 108835
+    end: 108835
+    step: 1
+# Experiment numbers defining list of experiments for summing tiff images.
+    
+file_paths:
+    input_path: ../../SXRD_raw_data/diamond_2021_fast_detector/rawdata/{experiment_number}-pilatus2M-files/
+# Input path to the series of diffraction pattern tiff images
+    
+    output_path: ../../SXRD_analysis/diamond_2021_fast_detector/{experiment_number}-calibration/
+# Output path to save the summed/averaged diffraction pattern tiff image.
+
+    air_scatter_path: ../../SXRD_raw_data/diamond_2021_fast_detector/rawdata/108850-pilatus2M-files/00001.tif
+# Path to tiff image recording the air scatter.
+
+    air_scatter_multiple: 20
+# Value to multiply the intensity values from the air scatter image, to match the acquisition frequency of the experimental data.
