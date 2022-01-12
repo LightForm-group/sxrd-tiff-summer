@@ -1,6 +1,6 @@
 experiment_numbers: 
-    start: 108835
-    end: 108835
+    start: 108849
+    end: 108849
     step: 1
 # Experiment numbers defining list of experiments for subtracting air scattering tiff image.
     
@@ -8,11 +8,11 @@ file_paths:
     input_path: ../../SXRD_raw_data/diamond_2021_fast_detector/rawdata/{experiment_number}-pilatus2M-files/
 # Input path to the series of diffraction pattern tiff images.
     
-    output_path: ../../SXRD_analysis/diamond_2021_fast_detector/{experiment_number}-calibration/
+    output_path: ../../SXRD_analysis/diamond_2021_fast_detector/{experiment_number}-heating/subtract-air-scatter/
 # Output path to save the subtracted diffraction pattern tiff images.
 
     air_scatter_path: ../../SXRD_raw_data/diamond_2021_fast_detector/rawdata/108850-pilatus2M-files/00001.tif
 # Path to tiff image recording the air scatter.
 
-    air_scatter_multiple: 20
+    air_scatter_multiple: 1
 # Value to multiply the intensity values from the air scatter image, to match the acquisition frequency of the experimental data.
