@@ -181,4 +181,4 @@ def multiple_subtract_tiff_images(experiment_numbers: List[int], background_scat
         input_filepath = input_path.format(experiment_number = experiment_number)
         output_filepath = output_path.format(experiment_number = experiment_number)
         
-        subtract_tiff_images(experiment_number, background_scatter_filepath, background_scatter_multiple, input_filepath, output_filepath,  v_max)
+        subtract_tiff_images(experiment_number, background_scatter_filepath, background_scatter_multiple, input_filepath, output_filepath,  v_max)        

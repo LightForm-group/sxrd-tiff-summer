@@ -1,0 +1,92 @@
+experiment_numbers: 
+    start: 114287
+    end: 114287
+    step: 1
+# Experiment numbers defining list of experiments for summing tiff images.
+    
+file_paths:
+    input_path: ../../SXRD_raw_data/diamond_2022_additional/processing/AdditionalData_block1/{experiment_number}-pilatus2M-files/
+# Input path to the series of diffraction pattern tiff images
+    
+    output_path: ../../SXRD_analysis/diamond_2022_additional/texture-studies/{experiment_number}/
+# Output path to save the summed/averaged diffraction pattern tiff image.
+
+    background_scatter_path: None
+# Path to tiff image recording the background.
+
+    background_scatter_multiple: None
+# Value to multiply the intensity values from the background image, to match the acquisition frequency of the experimental data.
+
+grid_info:
+    shape_x: 74
+    shape_y: 51
+# Total grid shape of individual diffraction pattern measurement points.    
+    
+    sample_numbers: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30]
+# Reference number for samples contained within the measurement grid.
+    
+    start_points:
+      - [1,1]
+      - [13,1]
+      - [26,1]
+      - [38,1]
+      - [50,1]
+      - [62,2]
+      - [1,11]
+      - [14,11]
+      - [26,11]
+      - [38,11]
+      - [50,11]
+      - [62,12]
+      - [1,21]
+      - [14,21]
+      - [26,21]
+      - [38,21]
+      - [50,22]
+      - [62,22]
+      - [1,31]
+      - [13,31]
+      - [26,31]
+      - [38,31]
+      - [50,32]
+      - [62,32]
+      - [1,42]
+      - [13,41]
+      - [25,41]
+      - [38,42]
+      - [50,42]
+      - [62,42]
+# Start measurement point (X,Y) for each of the numbered samples.
+
+    end_points:
+      - [11,9]
+      - [23,9]
+      - [36,9]
+      - [48,9]
+      - [60,9]
+      - [72,10]
+      - [11,19]
+      - [24,19]
+      - [36,19]
+      - [48,19]
+      - [60,20]
+      - [72,19]
+      - [11,29]
+      - [24,29]
+      - [36,29]
+      - [48,29]
+      - [60,30]
+      - [72,30]
+      - [11,39]
+      - [23,39]
+      - [36,39]
+      - [48,40]
+      - [60,40]
+      - [72,40]
+      - [11,50]
+      - [23,49]
+      - [35,50]
+      - [48,50]
+      - [60,50]
+      - [72,50]
+# End measurement point (X,Y) for each of the numbered samples.

@@ -1,0 +1,18 @@
+experiment_numbers: 
+    start: 111439
+    end: 111468
+    step: 1
+# Experiment numbers defining list of experiments for summing tiff images.
+    
+file_paths:
+    input_path: ../../SXRD_raw_data/diamond_2022/rawdata/{experiment_number}-pilatus2M-files/
+# Input path to the series of diffraction pattern tiff images
+    
+    output_path: ../../SXRD_analysis/diamond_2022/texture-studies/{experiment_number}/fourier-peak-analysis/
+# Output path to save the summed/averaged diffraction pattern tiff image.
+
+    background_scatter_path: None
+# Path to tiff image recording the background.
+
+    background_scatter_multiple: None
+# Value to multiply the intensity values from the background image, to match the acquisition frequency of the experimental data.

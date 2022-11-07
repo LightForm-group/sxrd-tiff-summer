@@ -1,0 +1,38 @@
+experiment_numbers: 
+    start: 112749
+    end: 112749
+    step: 1
+# Experiment numbers defining list of experiments for summing tiff images.
+    
+file_paths:
+    input_path: ../../SXRD_raw_data/diamond_2022_additional/rawdata/{experiment_number}-pilatus2M-files/
+# Input path to the series of diffraction pattern tiff images
+    
+    output_path: ../../SXRD_analysis/diamond_2022_additional/texture-studies/{experiment_number}/
+# Output path to save the summed/averaged diffraction pattern tiff image.
+
+    background_scatter_path: None
+# Path to tiff image recording the background.
+
+    background_scatter_multiple: None
+# Value to multiply the intensity values from the background image, to match the acquisition frequency of the experimental data.
+
+grid_info:
+    shape_x: 41
+    shape_y: 10
+# Total grid shape of individual diffraction pattern measurement points.    
+    
+    sample_numbers: [91,92,93]
+# Reference number for samples contained within the measurement grid.
+    
+    start_points:
+      - [1,1]
+      - [14,1]
+      - [29,1]
+# Start measurement point (X,Y) for each of the numbered samples.
+
+    end_points:
+      - [12,9]
+      - [26,9]
+      - [40,9]
+# End measurement point (X,Y) for each of the numbered samples.
