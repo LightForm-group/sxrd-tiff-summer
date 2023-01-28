@@ -1,9 +1,9 @@
 sxrd-tiff-summer
 -----------
 
-A Python notebook for summing and subtracting synchrotron diffraction pattern images, using the scikit-image package. Can be used to sum together and average the intensity distribution from a series of synchrotron diffraction pattern images, to produce a single diffraction pattern image as a measurement of bulk crystallographic properties. Also includes a notebook for mapping a grid matrix of average and maximum intensity values recorded from individual diffraction pattern images.
+A Python notebook for summing and subtracting synchrotron diffraction pattern images, using the scikit-image package. The notebook can be used to sum together and average the intensity distribution from a series of synchrotron diffraction pattern images, to produce a single diffraction pattern image as a measurement of bulk crystallographic properties. Also includes a notebook for mapping a grid matrix of average and maximum intensity values recorded from individual diffraction pattern images.
 
-The package works with diffraction pattern image data in the form of .tif or .tiff images. If the data is in the form of .cbf images then the images can be converted to tiff format using a notebook in the [pyFAI-integration-caking](https://github.com/LightForm-group/pyFAI-integration-caking) Python package.
+The package works with diffraction pattern image data in the form of .tif or .tiff images. If the data is in the form of .cbf images then the images can be converted to tiff format using a notebook from the [pyFAI-integration-caking](https://github.com/LightForm-group/pyFAI-integration-caking) Python package.
 
 Development
 --------------
@@ -67,12 +67,12 @@ pip list
 #pyyaml
 ```
 **8. If all in step 7 are present, you can now run the example notebooks.
-Ensure the venv is active and use the following command to boot jupyter notebook (using all libraries installed in the venv)
+Ensure the venv is active and use the following command to boot jupyter notebook (using all libraries installed in the venv).
 Warning - using just `jupyter notebook` without `python -m` can result in using your default python environment (the libraries may not be recognised):**
 ```unix
 python -m jupyter notebook
 ```
-**9. Work through the notebooks and setup yaml text files for reproducible summing of diffraction pattern images for large synchrotron datasets.**
+**9. Work through the notebooks and setup yaml text files for reproducible summing of diffraction pattern images across large synchrotron datasets.**
 
 **10. When you're finished using the virtual environment, deactivate it!
 This will avoid confusion when using different python libraries that are not installed within the virtual environment:**
